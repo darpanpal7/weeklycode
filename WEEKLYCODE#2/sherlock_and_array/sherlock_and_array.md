@@ -25,3 +25,12 @@ pre[i] = pre[i-1] + A[i] else
 
 Now we can represent
 ![enter image description here](https://i.ibb.co/XjkWmcG/96-CBE786-436-B-4640-B2-BF-7-AA4-C9-A17-FCE.png)
+
+For example : Take this array as input
+                ar1=[6,6,8,11,1]
+                The resulting prefix array will be ar2=[6,12,20,31,32].
+                We iterate over the whole array and check the condition if the ar2[i-1] = total sum - ar2[i];
+                        for i = 1,2 this condition is false &
+                        for i = 3 this condition is true as ar2[i-1] = 12,total sum = 32,ar2[i]= 20,we break the loop and print the answer.
+
+                
